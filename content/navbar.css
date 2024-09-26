@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.nav{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    padding: 10px 10px;
+    background-color: rgb(4, 39, 70);
+}
+
+.nav li{
+    padding: 20px;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: white;
+}
